@@ -1,0 +1,201 @@
+/*CURSIST_REGISTRATIE_ADMIN_SETTINGS*/
+.cursisten td{
+    width: 12%;
+    min-width: 12%;
+    max-width: 12%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#delete {
+    color: red;
+}
+
+.function-attribute {
+    /*display: none;*/
+}
+/*END CURSIST_REGISTRATIE_ADMIN_SETTINGS*/
+
+#voeg-cursus-box-toe:hover {
+    color: white;
+    background: #9E9E9E;
+    cursor: pointer;
+}
+
+#voeg-toe-knop:hover {
+    color: white;
+    background: #9E9E9E;
+    cursor: pointer;
+}
+#voeg-toe-knop, #voeg-cursus-box-toe {
+    font-size: 30px;
+    width: 50px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.58);
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(241, 241, 241);
+}
+
+img.emoji {
+    border-radius: 35px !important;
+}
+
+.custom-icon {
+    font-size: 35px;
+
+}
+
+/*extra velden css*/
+
+/*naw gegevens*/
+#acf-voornaam, #acf-tussenvoegsel, #acf-achternaam {
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#acf-thuis, #acf-mobiel {
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#acf-e-mail {
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#acf-huisnummer, #acf-toevoegsel {
+    width: 20%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#acf-adres {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#acf-plaats, #acf-postcode, #acf-geslacht {
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*eind naw gegevens*/
+
+[id*='acf-cursus'], [id*='acf-les_type']{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+[id*='acf-begin_datum'], [id*='acf-eind_datum'], [id*='acf-status']{
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+[id*='acf-opmerkingen'] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*agenda fields*/
+[id*='acf-datum_les_'], [id*='acf-tijd_les_']{
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+[id*='acf-datum-tijd_'] {
+    display: none;
+}
+/*eind agenda fields*/
+
+/*eind css cursus*/
+
+/*nieuw box knop css*/
+#acf-nieuw {
+    margin: 0 auto;
+    padding-right: 1px;
+    width: 90px;
+    text-align: left;
+}
+
+#acf-nieuw input {
+    /*display: none;*/
+}
+
+#acf-nieuw label {
+    padding:0;
+}
+
+#acf-nieuw ul label {
+    padding: 20px;
+    color: white;
+    background: #0073aa;
+    border-radius: 20px;
+}
+
+#acf-nieuw ul label:hover {
+    background: #092F54;
+}
+
+/*eind css nieuw box knop*/
+
+/*tweaks*/
+.acf_postbox p.label {
+    text-align: left;
+}
+
+.customButton {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #0073aa;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 90px;
+}
+
+.customButton2 {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background: #0073aa;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-left: 22px;
+    width: 10%;
+}
+
+.ui-datepicker-header {
+    color: black;
+}
+
+.fillUp {
+    height: 10px;
+    width: 10%;
+    display: inline-block;
+    margin-left: 22px;
+}
+/*eind tweaks*/
+
